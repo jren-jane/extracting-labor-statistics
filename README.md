@@ -1,5 +1,8 @@
 # extracting-labor-statistics
 
+## Implementation
+You need to download monthly data from IPUMS-CPS, adjust the file name in the "data-preparation.do" file, and adjust the directory stated at the top of the "main" file.
+
 ## Results
 
 ![img](https://github.com/jren-jane/extracting-labor-statistics/blob/4b3abfb33609dd59a281826954d9aa45f1f1bc4a/img/transition%20rates%201.png)
