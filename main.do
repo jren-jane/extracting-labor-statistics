@@ -59,8 +59,6 @@ by time empstat1: gen N=_N if empstat1==3
  *by time:
 *by time: egen pop=total(wtfinl)
 
-**HIER WEITERMACHEN** im zähler muss summe ee summe eu summe en stehen!
-
 by time: egen tr_eu=total(eu*wtfinl)
 
 by time: replace tr_eu=tr_eu/pop
